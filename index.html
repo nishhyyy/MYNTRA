@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)http://127.0.0.1:5502/New%20folder/.vscode/index3.html? -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./myntra_files/style3.css">
+</head>
+<body>
+    <div class="navbar">
+        <img id="logo" height="30px" src="./myntra_files/images" alt="shit">
+        <p class="item" id="men">MEN</p>
+        <p class="item" id="women"> WOMEN</p>
+        <p class="item" id="kids">KIDS</p>
+        <p class="item" id="beauty">BEAUTY</p>
+        <p class="item" id="foot">FOOTWEAR</p>
+        <p class="item" id="beauty">BEAUTY</p>
+        
+    
+    </div>
+    <div class="topcontent">
+        <h1 class="heading">BEST OF MYNTRA EXCLUSIVE BRAND</h1>
+        <p id="topcontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laborum vero magni, animi vel officiis ex itaque ut rem deserunt consequuntur neque reprehenderit similique repellendus! Aliquam sint repellendus commodi sit soluta, nam dolorum culpa necessitatibus alias incidunt quo assumenda rem ratione, doloremque aliquid illum saepe fuga recusandae molestiae nulla iure?
+        </p>
+        </div>
+       <div class="box1"></div>
+       <div class="box2"></div>
+        
+        <form class="visit">
+            <button>VISIT US</button>
+        </form>
+        
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
