@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html , body{
+
+width: 100%;
+height: 100%;
+background-color: peachpuff;
+}
+
+.navbar {
+    height: 55px;
+    background-color: black;
+
+}
+.box1{
+    position: absolute;
+
+    height: 690px;
+    width: 550px;
+    right: 2%;
+    background-image: url(https://images.unsplash.com/photo-1550614000-4895a10e1bfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fGZhc2hpb24lMjBtb2RlbHxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px;
+
+
+}
+button{
+    position: absolute;
+    font-size: 13px;
+    font-weight: 700;
+    border: red;
+    border-radius: 20%;
+    padding: 8px;
+    top: 80%;
+    left: 20%;
+    color: white;
+    background-color: rgb(157, 16, 16);
+    
+}
+.item {
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+    top: 10px;
+    color: #d80e0e;
+}
+.item:hover{
+    color: white;
+    transition: 0.40s;
+
+}
+#logo{
+    position: absolute;
+    left: 10%;
+    top: 10px;
+
+}
+#men{
+    left: 20%;
+}
+#women{
+    left: 30%;
+}
+#kids{
+    left: 40%;
+}
+#beauty{
+    left: 60%;
+}
+.topcontent{
+    height: 80px;
+    width: 600px;
+    position: absolute;
+}
+#foot{
+    left: 50%;
+}
+.heading{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    left: 23%;
+    top: 200px;
+
+}
+#topcontent
+{
+    position: absolute;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+    left: 23%;
+    top: 350px;
+
+}
+.visit{
+    position: absolute;
+    font-size: larger;
+    left: 140px;
+    top: 530px; 
+
+}
+
